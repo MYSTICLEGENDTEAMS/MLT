@@ -1,0 +1,10 @@
+/* LegendaryC10 StyleSheet */
+/* NoCopyRight Provided */
+/* Version 1.4 */
+
+/* Unsupported Device */
+	html { user-select: none; -webkit-user-select: none; -moz-user-select: none; ms-user-select: none; width: 100%; height: 100%; background-color: #dbdbd6; text-align: center; align-items: center; justify-content: center; display: flex; font-size: 70px; font-weight: bold;}
+	html::before {content: "Sorry, This Device is Supported Our Browser! "; }
+    body { width: 100%; height: 100%; display: none;}
+
+
