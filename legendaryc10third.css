@@ -174,7 +174,7 @@
   padding: 20px;
   background: #fff;
   border-radius: 5px;
-  width: 30%;
+  width: 85%;
   position: relative;
   transition: all 5s ease-in-out;
 }
@@ -204,7 +204,7 @@
 
 @media only screen and (min-width: 321px) and (max-width: 640px), only screen and (min-device-width: 321px) and (max-device-width: 640px) { {
   .navpopup{
-    width: 75%;
+    width: 70%;
   }
 }
 
