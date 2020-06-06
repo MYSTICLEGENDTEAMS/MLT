@@ -150,7 +150,63 @@
   animation: tooltips-horz 300ms ease-out forwards;
 }
 
+/* START NAVMODALNOB STYLES */
 
+
+.nobmodaloverlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+  transition: opacity 500ms;
+  visibility: hidden;
+  opacity: 0;
+}
+.nobmodaloverlay:target {
+  visibility: visible;
+  opacity: 1;
+}
+
+.navpopup {
+  margin: 70px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 5px;
+  width: 30%;
+  position: relative;
+  transition: all 5s ease-in-out;
+}
+
+.navpopup h2 {
+  margin-top: 0;
+  color: #333;
+}
+
+.navpopup .closenav {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  transition: all 200ms;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #333;
+}
+.navpopup .closenav:hover {
+  color: #06D85F;
+}
+.navpopup .contentnav {
+  max-height: 30%;
+  overflow: auto;
+}
+
+@media only screen and (min-width: 321px) and (max-width: 640px), only screen and (min-device-width: 321px) and (max-device-width: 640px) { {
+  .navpopup{
+    width: 75%;
+  }
+}
 
 
 
