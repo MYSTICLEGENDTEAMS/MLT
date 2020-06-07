@@ -174,9 +174,10 @@
   padding: 20px;
   background: #fff;
   border-radius: 5px;
-  width: 85%;
+  width: 57.5%;
   position: relative;
   transition: all 5s ease-in-out;
+  z-index: 2;
 }
 
 .navpopup h2 {
@@ -204,7 +205,8 @@
 
 @media only screen and (min-width: 321px) and (max-width: 640px), only screen and (min-device-width: 321px) and (max-device-width: 640px) { {
   .navpopup{
-    width: 70%;
+    width: 65%;
+    z-index: 2;
   }
 }
 
