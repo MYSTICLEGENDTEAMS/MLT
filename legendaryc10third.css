@@ -199,8 +199,7 @@
   color: #06D85F;
 }
 .navpopup .contentnav {
-  max-height: 75%;
-  overflow: auto;
+  overflow: none;
 }
 
 @media only screen and (min-width: 321px) and (max-width: 640px), only screen and (min-device-width: 321px) and (max-device-width: 640px) { {
