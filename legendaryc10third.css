@@ -163,6 +163,7 @@
   transition: opacity 500ms;
   visibility: hidden;
   opacity: 0;
+  z-index: 5;
 }
 .nobmodaloverlay:target {
   visibility: visible;
@@ -177,7 +178,7 @@
   width: 60%;
   position: relative;
   transition: all 5s ease-in-out;
-  z-index: 3;
+  z-index: 5;
 }
 
 .navpopup h2 {
@@ -219,7 +220,7 @@
 @media only screen and (min-width: 321px) and (max-width: 640px), only screen and (min-device-width: 321px) and (max-device-width: 640px)  {
   .navpopup{ 
     width: 85%;
-    z-index: 3;
+    z-index: 5;
   }
 }
 
