@@ -305,6 +305,11 @@ body[data-light-mode="dark"] .text-costumpink {
     color: #ed2b82;
 }
 
+body[data-light-mode=dark] .text-darkblue { 
+  color:#00d9ff;
+}
+
+
 /* TextColor */
 
 .text-red {  color: #fc0303 } .text-darkred { color: #80001a } .text-midred { color: #b80000 } .text-lightred { color: #ff2121 }
@@ -318,6 +323,64 @@ body[data-light-mode="dark"] .text-costumpink {
  .text-black { color: #000000 } .text-lightgrey { color: #8c8c8c } .text-grey { color: #5c5c5c } .text-darkgrey { color: #404040 } .text-white { color: #ffffff } 
 
 
+
+
+.tags-read {
+  list-style: none;
+  margin: 0;
+  overflow: hidden; 
+  padding: 0;
+}
+
+.tags-read li {
+  float: left; 
+}
+
+.tag-read {
+  background: #4a4a4a;
+  border-radius: 3px 0 0 3px;
+  color: #fff;
+  display: inline-block;
+  height: 26px;
+  line-height: 26px;
+  padding: 0 30px 0 33px;
+  position: relative;
+  margin: 0 10px 10px 0;
+  text-decoration: none;
+  -webkit-transition: color 0.2s;
+}
+
+.tag-read::before {
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: inset 0 1px rgba(0, 0, 0, 0.25);
+  content: '';
+  height: 6px;
+  left: 10px;
+  position: absolute;
+  width: 6px;
+  top: 10px;
+}
+
+.tag-read::after {
+  background: #fff;
+  border-bottom: 13px solid transparent;
+  border-left: 10px solid #4a4a4a;
+  border-top: 13px solid transparent;
+  content: '';
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.tag-read:hover {
+  background-color: crimson;
+  color: white;
+}
+
+.tag-read:hover::after {
+   border-left-color: crimson; 
+}
 
 
 
