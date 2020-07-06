@@ -388,6 +388,27 @@ body[data-light-mode=dark] .text-darkblue {
   .hidden-cloak { display: none; }
 
 
+  @media (min-width: 321px ){
+  .read-img {border-radius: 10px; height: 400px; width: 97.5%; }
+    .read-mode {padding: 10px;}
+  }
+
+   @media (min-width: 769px ){ 
+  .read-img {border-radius: 10px; height: 500px; width: 87.5%; }
+    .read-mode {padding: 15px;}
+  }
+
+   @media (min-width: 1281px ){ 
+  .read-img {border-radius: 10px; height: 600px; width: 77.5%; }
+    .read-mode {padding: 25px;}
+  }
+
+     @media (min-width: 1961px ){ 
+  .read-img {border-radius: 10px; height: 700px; width: 67.5%; }
+    .read-mode {padding: 40px;}
+  }
+
+
   body[data-light-mode="dark"]   .red-boxs { padding: 10px; margin: 10px;  text-align: center; border-radius: 5px; background-color: #ff4c34; color: #fff; font-weight: 600;}
 
   .red-boxs { padding: 10px; margin: 10px; text-align: center; border-radius: 5px; background-color: #e30707; color: #fff; font-weight: 600;}
