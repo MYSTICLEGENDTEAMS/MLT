@@ -425,6 +425,11 @@ body[data-light-mode=dark] .text-darkblue {
 
   .green-boxs { padding: 10px; margin: 10px; text-align: center; border-radius: 5px; background-color: #31ff2e; color: #fff; font-weight: 600;}
 
+body[data-light-mode="dark"]   .darkgreen-boxs { padding: 10px; margin: 10px;  text-align: center; border-radius: 5px; background-color: #25a848; color: #fff; font-weight: 600;}
+
+  .darkgreen-boxs { padding: 10px; margin: 10px; text-align: center; border-radius: 5px; background-color: #0ba147; color: #fff; font-weight: 600;}
+
+
   body[data-light-mode="dark"]   .blue-boxs { padding: 10px; margin: 10px;  text-align: center; border-radius: 5px; background-color: #2effea; color: #fff; font-weight: 600;}
 
   .blue-boxs { padding: 10px; margin: 10px; text-align: center; border-radius: 5px; background-color: #2ed5ff; color: #fff; font-weight: 600;}
