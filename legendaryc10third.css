@@ -382,6 +382,41 @@ body[data-light-mode=dark] .text-darkblue {
    border-left-color: crimson; 
 }
 
+  body[data-light-mode="dark"]   .red-boxs { padding: 10px; margin: 10px;  text-align: center; border-radius: 5px; background-color: #ff4c34; color: #fff; font-weight: 600;}
+
+  .red-boxs { padding: 10px; margin: 10px; text-align: center; border-radius: 5px; background-color: #e30707; color: #fff; font-weight: 600;}
+
+  body[data-light-mode="dark"]   .orange-boxs { padding: 10px; margin: 10px;  text-align: center; border-radius: 5px; background-color: #ffc76e; color: #fff; font-weight: 600;}
+
+  .orange-boxs { padding: 10px; margin: 10px; text-align: center; border-radius: 5px; background-color: #ffb405; color: #fff; font-weight: 600;}
+
+  body[data-light-mode="dark"]   .yellow-boxs { padding: 10px; margin: 10px;  text-align: center; border-radius: 5px; background-color: #fff834; color: #000; font-weight: 600;}
+
+  .yellow-boxs { padding: 10px; margin: 10px; text-align: center; border-radius: 5px; background-color: #ffea2e; color: #000; font-weight: 600;}
+
+  body[data-light-mode="dark"]   .green-boxs { padding: 10px; margin: 10px;  text-align: center; border-radius: 5px; background-color: #abff2e; color: #fff; font-weight: 600;}
+
+  .green-boxs { padding: 10px; margin: 10px; text-align: center; border-radius: 5px; background-color: #31ff2e; color: #fff; font-weight: 600;}
+
+  body[data-light-mode="dark"]   .blue-boxs { padding: 10px; margin: 10px;  text-align: center; border-radius: 5px; background-color: #2effea; color: #fff; font-weight: 600;}
+
+  .blue-boxs { padding: 10px; margin: 10px; text-align: center; border-radius: 5px; background-color: #2ed5ff; color: #fff; font-weight: 600;}
+
+  body[data-light-mode="dark"]   .darkblue-boxs { padding: 10px; margin: 10px;  text-align: center; border-radius: 5px; background-color: #2e43ff; color: #fff; font-weight: 600;}
+
+  .darkblue-boxs { padding: 10px; margin: 10px; text-align: center; border-radius: 5px; background-color: #0970ba; color: #fff; font-weight: 600;}
+
+  body[data-light-mode="dark"]   .purple-boxs { padding: 10px; margin: 10px;  text-align: center; border-radius: 5px; background-color: #8000ff; color: #fff; font-weight: 600;}
+
+  .purple-boxs { padding: 10px; margin: 10px; text-align: center; border-radius: 5px; background-color: #aa00ff; color: #fff; font-weight: 600;}
+
+  body[data-light-mode="dark"]   .darkpurple-boxs { padding: 10px; margin: 10px;  text-align: center; border-radius: 5px; background-color: #9419ff; color: #fff; font-weight: 600;}
+
+  .darkpurple-boxs { padding: 10px; margin: 10px; text-align: center; border-radius: 5px; background-color: #9d09ba; color: #fff; font-weight: 600;}
+
+body[data-light-mode="dark"]   .pink-boxs { padding: 10px; margin: 10px;  text-align: center; border-radius: 5px; background-color: #ff00c3; color: #fff; font-weight: 600;}
+
+  .pink-boxs { padding: 10px; margin: 10px; text-align: center; border-radius: 5px; background-color: #f7398f; color: #fff; font-weight: 600;}
 
 
 
