@@ -1,0 +1,83 @@
+ .tooltiplc10 { position: relative; display: inline-block;}.tooltiplc10 .tooltiptextlc10 { visibility: hidden; width: 140px; background-color: #555; color: #fff; text-align: center; border-radius: 6px; padding: 5px; position: absolute; z-index: 1; bottom: 150%; left: 50%; margin-left: -75px; opacity: 0; transition: opacity 0.3s;} .tooltiplc10 .tooltiptextlc10::after { content: ""; position: absolute; top: 100%; left: 50%; margin-left: -5px; border-width: 5px; border-style: solid; border-color: #555 transparent transparent transparent;}.tooltiplc10:hover .tooltiptextlc10 { visibility: visible; opacity: 1;} input[type=name] { width: 90%; padding: 12px 20px; margin: 8px 0; box-sizing: border-box; border: 2px solid #1f41ed; border-radius: 5px; } input[type=text] { width: 90%; padding: 12px 20px; margin: 8px 0; box-sizing: border-box; border: 2px solid #de4b26; border-radius: 5px; } input[type=email] { width: 90%; padding: 12px 20px; margin: 8px 0; box-sizing: border-box; border: 2px solid #e08d10; border-radius: 5px; } .neoncarde { width: 80%; background-color: #3610e0; padding: 25px; margin: 0px 0px 25px 0px; border-radius: 10px; color: #fff; font-size: 20px; display: block;} .purplecarde { width: 80%; background-color: #c730cf; padding: 25px; margin: 0px 0px 25px 0px; border-radius: 10px; color: #fff; font-size: 20px; display: block;} .timecarde { width: 60%; background-color: #9221de; padding: 15px; margin: -25px 0px 25px 0px; border-radius: 0px 0px 50px 50px; color: #fff; font-size: 15px; display: block; } .pinkcarde { width: 60%; background-color: #f72a53; padding: 15px; margin: -25px 0px 25px 0px; border-radius: 0px 0px 50px 50px; color: #fff; font-size: 15px; display: block; } .button-blockhead { border: none; color: white; padding: 15px !important; width: 90%! important; text-align: center; text-decoration: none; display: inline-block; font-size: 20px; margin: 4px 2px; cursor: pointer; border-radius: 12px;} button, .button { border: none; background-color: #000; color: #fff; border-radius: 10px; margin: 4px 8px; padding: 6px; text-decoration: none; cursor: pointer; } button:hover, .button:hover { background-color: #5c5c5c; color: #fff; border: 1px solid #000; } .ytbe { background-color: #de4b26;} .dscd { background-color: #1f41ed;} .fcbk { background-color: #e08d10; } .aacolumn3 { float: left; width: 30%;} .aacolumn2 { float: left; width: 45%;} .aarow:after { content: ""; display:block; clear: both;} table { width: 100%; border-collapse: collapse; border-radius: 10px;} td { text-align: center; }
+
+
+
+/* Dropdown */
+
+.dropdown {
+  display: inline-block;
+  position: relative;
+}
+
+.dd-button {
+  display: inline-block;
+  border: 1px solid gray;
+  border-radius: 4px;
+  padding: 10px 30px 10px 20px;
+  background-color: #ffffff;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.dd-button:after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  right: 15px;
+  transform: translateY(-50%);
+  width: 0; 
+  height: 0; 
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 5px solid black;
+}
+
+.dd-button:hover {
+  background-color: #eeeeee;
+}
+
+
+.dd-input {
+  display: none;
+}
+
+.dd-menu {
+  position: absolute;
+  top: 100%;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 0;
+  margin: 2px 0 0 0;
+  box-shadow: 0 0 6px 0 rgba(0,0,0,0.1);
+  background-color: #ffffff;
+  list-style-type: none;
+}
+
+.dd-input + .dd-menu {
+  display: none;
+} 
+
+.dd-input:checked + .dd-menu {
+  display: block;
+} 
+
+.dd-menu li {
+  padding: 10px 20px;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.dd-menu li:hover {
+  background-color: #f6f6f6;
+}
+
+.dd-menu li a {
+  display: block;
+  margin: -10px -20px;
+  padding: 10px 20px;
+}
+
+.dd-menu li.divider{
+  padding: 0;
+  border-bottom: 1px solid #cccccc;
+}
